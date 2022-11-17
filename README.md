@@ -14,9 +14,6 @@ Based on the unmaintained [PackProbe program](https://github.com/PowerCartel/Pac
 See also this [article from 2011](https://media.blackhat.com/bh-us-11/Miller/BH_US_11_Miller_Battery_Firmware_Public_WP.pdf).
 Extract: *Macbook batteries ship with a default unseal password (0x36720414).  This was found by reverse engineering a Macbook battery update.  On Macbook batteries, the full access mode password is also hardcoded and default (0xffffffff).* 
 
-## Compile with the Arduino IDE
-Download and extract the repository. In the Arduino IDE open the sketch with File -> Open... and select the SBMInfo folder. 
-
 ## Identifying the right connection
 Valuable information about battery pinout can also be found [here](https://www.laptopu.ro/community/laptop-battery-pinout/) or [here](https://powercartel.com/projects/packprobe/battery-connection/).<br/>
 The minimal connector layout is: | GROUND | THERMISTOR (103AT) | CLOCK | DATA | VCC (11 or 14 volt) | (clock and data my be switched).
